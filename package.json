@@ -1,0 +1,22 @@
+{
+  "name": "firstbitwork",
+  "version": "1.0.0",
+  "description": "all assignment and frameworks like angular and react will be done using tailwind css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fbit"
+  ],
+  "author": "Shreyas_Kulkarni",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.3"
+  },
+  "dependencies": {
+    "tw-elements": "^1.0.0-alpha12"
+  }
+}

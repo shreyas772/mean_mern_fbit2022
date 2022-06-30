@@ -6,6 +6,10 @@ module.exports = {
   ],
 
   theme: {
+    extend: {
+      height: {
+        '128': '32rem',
+      },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
@@ -20,4 +24,5 @@ module.exports = {
       'fbox':'#F8F7F5',
     },
   },
+},
 }

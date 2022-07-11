@@ -12,14 +12,20 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
 <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.7/dist/flowbite.min.css" />
 <script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></script>
+
 </head>
 <body>
    
     <div class="flex justify-center py-16">
         <div class="box-border drop-shadow-xl w-96 h-auto border-2 rounded-xl border-none bg-transparent bg-black ">
+            <!-- <div>
+                <input class="pt-16 p-5 pb-0 w-full text-white bg-black text-right text-2xl active:outline-none active:border-0" type="text" name="" id="operation">
+                <input class="p-5 text-white bg-black text-right text-3xl" type="number" name="" id="opResults">
+                = <span class="text-orange-500">2100</span>
+            </div> -->
             <div class="">
-                <div class="pt-16 p-5 pb-0 text-white text-right text-2xl ">2000 + 100</div>
-                <div class="p-5 text-white text-right text-3xl ">= <span class="text-orange-500">2100</span></div>
+                <div id="operation" class="pt-16 p-5 pb-0 text-white text-right text-2xl ">2000 + 100</div>
+                <div id="opResults" class="p-5 text-white text-right text-3xl ">= <span class="text-orange-500">2100</span></div>
 
             </div>
             <div class="grid grid-cols-4 gap-4 py-16 px-8 bg-black sm:w-auto">
@@ -51,5 +57,7 @@
         </div>
 
     </div>
+
+    <script src="./calculator.js"></script>
 </body>
 </html>

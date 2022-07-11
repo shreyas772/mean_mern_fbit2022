@@ -8,7 +8,12 @@ module.exports = {
   theme: {
     extend: {
       height: {
-        '128': '32rem',
+        'h120': '20rem',
+      },
+
+     
+      width:{
+        '500':'500px'
       },
     colors: {
       transparent: 'transparent',
@@ -22,6 +27,12 @@ module.exports = {
       'bubble-gum': '#ff77e9',
       'bermuda': '#78dcca',
       'fbox':'#F8F7F5',
+      'uicolor':'#8D3DAF',
+      'navitem':'#7faac9'
+    },
+
+    transformOrigin: {
+      'torigin': '50% 75%',
     },
   },
 },
